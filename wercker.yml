@@ -1,4 +1,6 @@
 box: wercker/ruby
+services:
+  - wercker/POSTGRESQL
 build:
   steps:
     - bundle-install
